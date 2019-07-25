@@ -24,16 +24,18 @@ to following link , download and install it . [GoLang](https://golang.org/)
 Once Go compiler installed you can compile it by perfoming the following command :
 - Go to cpuStress folder
 to compile it for you current system execute: 
-`go build sc/cpuStress.go`
+`go build sc/cpuStress.go`</br>
 to compile it for cross-platform execute:
-`env GOOS=target GOARCH=arch go build sc/cpuStress.go`
-where target and arch can be taked following table below : 
-|	target	|	arch	|
-| ----------| ----------|
-|	windows |	amd64	|
-|	windows |	386	    |
-|   linux   |	amd64   |
-|	linux   |   arm     |
+`env GOOS=target GOARCH=arch go build sc/cpuStress.go`</br>
+where target and arch can be taked following table below :  
+
+| target      | arch        |
+| ----------- | ----------- |
+|	windows     |	amd64	      |
+|	windows     |	386	        |
+| linux       |	amd64       |
+|	linux       | arm         |
+
 
 you can find more platforms available to be compiled on the next link : [cross-platform](https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04)
 
